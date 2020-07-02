@@ -20,8 +20,7 @@ class Router {
         //action
 
         $action = (isset($url[0]) && $url[0] != '' ) ? $url[0] . 'Action' : 'indexAction';
-
-
+//        dnd($action);
         $action_name = $controller;
 
         array_shift($url);
